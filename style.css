@@ -11,6 +11,9 @@ h1{
 .orange-color{
     color: orange;
 }
+.whait-color{
+    color: blanchedalmond;
+}
 p{
     font-size: 17px;
 }
@@ -26,9 +29,13 @@ p{
 .banner img{
     width: 100%;
 }
-
-   
-
+.banner-text{
+    position: absolute;
+        padding-left: 50%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
 .half-width{
     width: 50%;
 }
@@ -44,6 +51,9 @@ p{
 }
 .imgflex{
     display: flex;
+}
+.background-image{
+    background-image: url(images/food-girl-frame.png)
 }
 #border-shedw{
     width: 40%;
@@ -66,6 +76,10 @@ p{
     border-radius: 10px;
     box-shadow: 10px 10px 30px gray;
 }
+.img-border{
+    border: 15px solid white;
+    border-radius: 30px;
+}
 .divmargin{
     margin-top: 150px;
 }
@@ -74,4 +88,10 @@ p{
 }
 h2{
     text-align: center;
+}
+#footerblack{
+    background-color: black;
+    
+
+
 }
